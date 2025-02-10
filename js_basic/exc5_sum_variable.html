@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        var text = "sekolah ngoding";
+        var text2 = " yang baru";
+
+        // tipe-data number/angka
+        var angka = 1000;
+        var angka2 = 1000.123 + 0.2;
+
+        // kiri = nama -> kanan = nilai
+        text2 = " yang lama";
+        var angka_baru = text + text2;
+
+        document.getElementById("wrap").innerHTML = angka_baru;
+    </script>
+</body>
+</html>
+
