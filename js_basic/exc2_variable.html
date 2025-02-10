@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        /*
+        1. memilih id wrap
+        2. metode innerHTML = nulis konten
+        */
+
+        // Deklarasi Variable
+        // ------------------
+        // Nama dimulai dg huruf atau $ atau _
+        // Nama boleh mengandung huruf, angka, underscore _ dan $ dollar
+        // Nama itu case sensitive
+        // Ada 'reserved words' yang tidak boleh dipakai (var, dll yang sudah dipakai)
+        var x = 17;
+        var $tabungan = 172;
+        var _sapi = 20;
+
+        document.getElementById("wrap").innerHTML = x;
+    </script>
+</body>
+</html>
+
