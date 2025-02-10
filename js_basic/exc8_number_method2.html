@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // tipe-data number/angka
+        var angka = 1000;
+        var angka2 = 12.23456;
+        
+        // Number Method
+        // 1. toFixed(n) -> mengambil angka dibelakang koma
+        // 2. toString() -> convert to text
+        // 3. random() -> angka acak
+        // 4. min(a, b, c) -> angka terkecil
+        // 5. max(a, b, c) -> angka terbesar
+        
+        // --------
+        // round() ceil() floor() ObjectMethods(contoh: abs, log)
+        // random spesific formula -> Math.floor(Math.random()*x) + 1;
+        var angka_baru = Math.round(241.424);
+        var angka_baru = Math.floor(241.424); // bulat kebawah
+        var angka_baru = Math.ceil(241.424); // bulat keatas
+
+        // --------
+        // Random spesific
+        var x = 10; // range jarak
+        var y = 5; // batas minimal
+        // batas max = y+x;
+        var angka_baru = Math.floor(Math.random() * x) + y
+
+        document.getElementById("wrap").innerHTML = angka_baru;
+    </script>
+</body>
+</html>
+
