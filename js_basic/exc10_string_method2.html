@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // String Method
+        // length indexOf lastIndexof search chartAt
+        // toUpperCase() toLowerCase() replace
+        // substring(start, end), substr(start, length)
+        // parseInt, parseFloaT(decimal)
+        var nama = "Hilman Rami Ramadhan";
+        var angka = "120";
+        var hasil = nama.substring(0, 6); // mengambil huruf berdasarkan index
+        var hasil = nama.substr(12, 5); // mengambil huruf berdasarkan panjangnya
+        var hasil = parseInt(angka) + 10; // mengubah string menjadi angka
+
+        document.getElementById("wrap").innerHTML = hasil;
+    </script>
+</body>
+</html>
+
