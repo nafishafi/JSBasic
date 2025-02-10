@@ -1,0 +1,1 @@
+Javascript digunakan untuk membuat website lebih interaktif dan bisa membuat logika/sistem dari bahasa program
