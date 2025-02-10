@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // String Method
+        // length indexOf lastIndexof search chartAt
+        // toUpperCase() toLowerCase() replace
+        // substring(start, end), substr(start, length)
+        var nama = "Hilman Ramadan"
+        var hasil = nama.length; // panjang huruf
+        var hasil = nama.indexOf("R"); // posisi huruf ke..
+        var hasil = nama.search("R"); // hampir sama seperti index
+        var hasil = nama.charAt(4); // Kebalikan, menampilkan huruf
+        var hasil = nama.toUpperCase(); // Mengubah huruf menjadi huruf besar
+        var hasil = nama.toLowerCase(); // Mengubah huruf menjadi huruf kecil
+        var hasil = nama.replace("Hilman", "xxx"); // Me replace
+
+        document.getElementById("wrap").innerHTML = hasil;
+    </script>
+</body>
+</html>
+
