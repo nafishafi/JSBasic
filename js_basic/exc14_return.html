@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Return
+        /* function printText()
+        {
+            var a = "Sekolah";
+            var b = " Koding";
+            var c = " 123";
+
+            return a + b;
+        } */
+        // var text = printText() + " yang lama";
+        // document.getElementById("wrap").innerHTML = text;
+
+        function sum(num1, num2){
+            return num1 + num2;
+        }
+        var text = sum(20, 21);
+        document.getElementById("wrap").innerHTML = text;
+    </script>
+</body>
+</html>
+
