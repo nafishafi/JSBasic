@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Method array
+        // sort, reverse, concat, length, join("separator"),
+        var namaOrang = ["hilman", "endy", "tiqa"];
+        var namaOrang2 = ["koko", "kaka"];
+        var namaOrang3 = ["jeffry", "alex"];
+
+        var total = namaOrang.concat(namaOrang2, namaOrang3);
+
+      // document.getElementById("wrap").innerHTML = namaOrang.sort(); // berdasarkan abjad
+      // document.getElementById("wrap").innerHTML = namaOrang.reverse(); // urutan dibalik
+      // document.getElementById("wrap").innerHTML = total; // Penggabungan 2 array
+      // document.getElementById("wrap").innerHTML = total.length; // panjang array
+       document.getElementById("wrap").innerHTML = total.join(" | "); // Memisahkan urutan array dengan simbol/yang lain
+    </script>
+</body>
+</html>
+
