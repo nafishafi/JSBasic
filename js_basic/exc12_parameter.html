@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Parameter
+        function printText(nama)
+        {
+            var text = nama + " yang baru";
+            document.getElementById("wrap").innerHTML = text;
+        }
+        var nama = "Sekolah Ngoding";
+        printText(nama + " 777");
+    </script>
+</body>
+</html>
+
