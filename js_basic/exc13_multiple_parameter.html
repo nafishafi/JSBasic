@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Multiple Parameter
+        function printText(nama, nama2, nama3)
+        {
+            var text = nama + nama2 + nama3 + " yang lama";
+            document.getElementById("wrap").innerHTML = text;
+        }
+        printText("Sekolah Ngoding", "123", " yang baru");
+    </script>
+</body>
+</html>
+
