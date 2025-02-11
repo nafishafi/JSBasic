@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Scope
+        // global & local
+        
+        // Global
+        var text = "Sekolah koding 123";
+
+        function printText(){
+            // local var
+            // var text2 = " situs lain "
+
+            // global (tanpa var)
+            text2 = " situs lain "
+        }
+        
+        printText();
+        
+        document.getElementById("wrap").innerHTML = text2;
+    </script>
+</body>
+</html>
+
