@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Method array
+        // sort, reverse, concat, length, join("separator"),
+        var namaOrang = ["hilman", "endy", "tiqa"];
+        var namaOrang2 = ["koko", "kaka"];
+        var namaOrang3 = ["jeffry", "alex"];
+
+        // splice->add(mulai, dihapus?, isi), splice->remove
+        // pop, push, shift(), unshift()
+
+        // namaOrang.splice(2, 0, "emmy", "joko") // posisi, hapus, isi
+        // namaOrang.splice(2, 1) // posisi, hapus(berapa)
+        namaOrang.pop(); // menghapus index terakhir
+        namaOrang.push("emmy"); // menambah index terakhir
+
+        namaOrang.shift(); // menghapus index awal
+        namaOrang.unshift("Joko"); // menambah index awal
+
+        document.getElementById("wrap").innerHTML = namaOrang; 
+    </script>
+</body>
+</html>
+
