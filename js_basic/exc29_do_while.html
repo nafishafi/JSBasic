@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Do While Loop
+        // Eksekusi minimal 1 kali
+        var i = 5;
+        var text = "";
+
+        do{
+            text += "angkanya adalah " + i + "<br>";
+            i++;
+        } 
+        while(i < 5);
+        document.getElementById('wrap').innerHTML = text;
+        
+    </script>
+</body>
+</html>
+
