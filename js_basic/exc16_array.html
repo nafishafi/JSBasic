@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+    <style>
+        #wrap{
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <img src="asset\javascript.png" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        // Array -> dimulai dari 0
+        var kotak = ["hilman", 12, "tiqa"]; // bebas type data
+        kotak[1] = "endyr";
+
+       // document.getElementById("wrap").innerHTML = kotak;
+       // document.getElementById("wrap").innerHTML = kotak[2];
+       var text = "Namanya adalah " + kotak[1];
+       document.getElementById("wrap").innerHTML = text;
+    </script>
+</body>
+</html>
+
